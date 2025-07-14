@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AlertCircle, CheckCircle } from 'lucide-react';
-import { validateForm } from '../utils/Validation'; 
+import { validateForm } from '../utils/validation'; 
 
 const StudentForm = ({ student, onSave, onCancel }) => {
   const [formData, setFormData] = useState({
