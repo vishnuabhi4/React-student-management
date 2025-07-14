@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useStudents } from '../context/StudentContext';
+import { useStudents } from '../context/studentContext';
 import StudentForm from '../components/StudentForm';
 
 const StudentFormPage = () => {
