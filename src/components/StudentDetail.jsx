@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { User, Mail, Phone, ArrowLeft, AlertCircle } from 'lucide-react';
-import { useStudents } from '../context/StudentContext';
+import { useStudents } from '../context/studentContext';
 import { fetchStudentById } from '../services/StudentApi';
 import { LoadingSpinner } from '../UI';
 
