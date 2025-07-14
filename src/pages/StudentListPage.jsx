@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useStudents } from '../context/StudentContext'; 
+import { useStudents } from '../context/studentContext'; 
 import StudentList from '../components/StudentList';
 
 const StudentListPage = () => {
