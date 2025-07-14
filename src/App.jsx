@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, useNavigate, useLocation, useParams } from 'react-router-dom';
-import { StudentProvider, useStudents } from './context/StudentContext';
+import { StudentProvider,useStudents } from './context/StudentContext';
 import StudentList from './components/StudentList';
 import StudentListPage from './pages/StudentListPage';
 import StudentDetail from './components/StudentDetail';
